@@ -7,6 +7,9 @@ unit uTConsole;
 
 interface
 
+Uses
+  SysUtils,Windows,Winsock,Classes,SyncObjs,DB,ADODB,ActiveX,DateUtils;
+
 type
   TConsole = Class
   Private
